@@ -100,10 +100,8 @@ onnx==1.16.0
     # via
     #   -r ./extra-pdf-image.in
     #   unstructured-inference
-onnxruntime==1.15.1
-    # via
-    #   -c ././deps/constraints.txt
-    #   unstructured-inference
+onnxruntime==1.17.3
+    # via unstructured-inference
 opencv-python==4.8.0.76
     # via
     #   -c ././deps/constraints.txt
@@ -132,7 +130,7 @@ pdfminer-six==20231228
     #   pdfplumber
 pdfplumber==0.11.0
     # via layoutparser
-pikepdf==8.15.0
+pikepdf==8.15.1
     # via -r ./extra-pdf-image.in
 pillow==10.3.0
     # via
@@ -190,7 +188,7 @@ rapidfuzz==3.8.1
     # via
     #   -c ./base.txt
     #   unstructured-inference
-regex==2023.12.25
+regex==2024.4.16
     # via
     #   -c ./base.txt
     #   transformers
@@ -249,7 +247,7 @@ typing-extensions==4.11.0
     #   torch
 tzdata==2024.1
     # via pandas
-unstructured-inference==0.7.25
+unstructured-inference==0.7.27
     # via -r ./extra-pdf-image.in
 unstructured-pytesseract==0.3.12
     # via
