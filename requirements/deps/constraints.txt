@@ -55,3 +55,8 @@ lxml<5
 
 # NOTE(jennings): pinned due to later versions not supporting api_key_auth in UnstructuredClient
 unstructured-client<=0.18.0
+
+# -- NOTE(scanny) pin `tokenizers` here to tie the version selected by `ingest/chroma.in`
+# -- to the one selected by other unstructured install options that also require
+# -- `tokenizers`.
+tokenizers==0.15.2

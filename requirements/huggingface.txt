@@ -89,7 +89,9 @@ six==1.16.0
 sympy==1.12
     # via torch
 tokenizers==0.15.2
-    # via transformers
+    # via
+    #   -c ././deps/constraints.txt
+    #   transformers
 torch==2.2.2
     # via
     #   -c ././deps/constraints.txt

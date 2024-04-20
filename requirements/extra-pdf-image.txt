@@ -217,7 +217,9 @@ sympy==1.12
 timm==0.9.16
     # via effdet
 tokenizers==0.15.2
-    # via transformers
+    # via
+    #   -c ././deps/constraints.txt
+    #   transformers
 torch==2.2.2
     # via
     #   -c ././deps/constraints.txt

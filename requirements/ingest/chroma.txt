@@ -184,8 +184,10 @@ sympy==1.12
     # via onnxruntime
 tenacity==8.2.3
     # via chromadb
-tokenizers==0.19.1
-    # via chromadb
+tokenizers==0.15.2
+    # via
+    #   -c ./ingest/../deps/constraints.txt
+    #   chromadb
 tqdm==4.66.2
     # via
     #   -c ./ingest/../base.txt

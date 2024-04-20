@@ -155,7 +155,9 @@ tenacity==8.2.3
 threadpoolctl==3.4.0
     # via scikit-learn
 tokenizers==0.15.2
-    # via transformers
+    # via
+    #   -c ./ingest/../deps/constraints.txt
+    #   transformers
 torch==2.2.2
     # via
     #   -c ./ingest/../deps/constraints.txt
